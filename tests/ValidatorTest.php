@@ -14,8 +14,8 @@
 namespace Vspc\Support\Tests;
 
 use Mockery as m;
-use PHPUnit\Framework\TestCase;
 use Vspc\Support\Validator;
+use PHPUnit\Framework\TestCase;
 use Illuminate\Validation\Factory as IlluminateValidator;
 
 class ValidatorTest extends TestCase
@@ -23,12 +23,12 @@ class ValidatorTest extends TestCase
     /**
      * The Validator instance.
      *
-     * @var \Vspc\Support\Validator
+     * @var Validator
      */
     protected $validator;
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     protected function setUp(): void
     {
@@ -38,7 +38,7 @@ class ValidatorTest extends TestCase
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     protected function tearDown(): void
     {
